@@ -16,14 +16,14 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "1.0.0",
-          "buildVersion": "1",
-          "date": "2026-11-15T08:25:39Z",
-          "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.0.0/4AppleTV-S.ipa",
-          "size": 9998737,
+          "version": "1.0.1",
+          "buildVersion": "2",
+          "date": "2026-11-15T10:42:02Z",
+          "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.0.1/4AppleTV-S.ipa",
+          "size": 10045312,
           "minOSVersion": "17.0",
-          "localizedDescription": "4AppleTV-S v1.0.0 (Build 1):\n• True Standalone 1-Slot Architecture: Install once via USB from Windows or macOS, then 4AppleTV-S self-signs and auto-renews every 7 days directly on iPhone over LocalDevVPN (10.7.0.1) — zero intermediate runner slot.\n• Metallic Gold Identity & Display Name 4AppleTV-S: 1-tap verified OTA self-update directly in place.\n• Preserves every 4AppleTV feature (Apple TV Remote, LiveContainerTV :8228, Default 4-App Pack, authentic icons) with TVS activation & Counter-REA hardening.",
-          "sha256": "c1547a54cbd443e8ae1a327d803c379fe95451579404ebf264367b094bbb378f"
+          "localizedDescription": "4AppleTV-S v1.0.1 (Build 2):\n• Fixed instant crash (EXC_BAD_ACCESS / 512 KB FFI thread stack overflow) when packing and refreshing 4AppleTV-S certificate on iPhone/iPad.\n• Added automatic Team ID matching & fallback across up to 3 signed-in Apple IDs (with case-insensitive matching & key sync), plus automatic RemotePairing (.rpport) recovery after device reboot.\n• Added built-in persistent diagnostic log (host-refresh.log) with Copy & Share viewer inside the Sideload and Account tabs.",
+          "sha256": "9095415b75a864aecdaca05570a8e76ec77390b4610643e5988ec2708d0f457a"
         }
       ],
       "appPermissions": {
