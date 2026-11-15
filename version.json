@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "build": 1,
+  "gitCommit": "600ab81",
+  "releaseTag": "v1.0.0",
+  "assetName": "4AppleTV-S.ipa",
+  "assetSize": 9998737,
+  "releaseDate": "2026-11-15T08:25:39Z",
+  "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.0.0/4AppleTV-S.ipa",
+  "releasePageURL": "https://github.com/hongson117/4AppleTV-S/releases/tag/v1.0.0",
+  "changelog": "4AppleTV-S v1.0.0 (Build 1):\n• Độc lập 1-Slot trên iPhone (Standalone 1-Slot): Chỉ cần cài 1 lần duy nhất từ laptop Windows/macOS qua USB, sau đó 4AppleTV-S tự ký đè & tự gia hạn 7 ngày ngay trên iPhone qua LocalDevVPN (10.7.0.1) — không tốn slot app trung gian.\n• Giao diện & Biểu tượng Vàng Kim (Metallic Gold): Tên hiển thị 4AppleTV-S, tự cập nhật OTA 1 chạm trực tiếp không cần thoát khỏi app.\n• Tích hợp sẵn toàn bộ tính năng đỉnh cao của 4AppleTV (Remote, LiveContainerTV :8228, Bộ 4 app Kodi/Orivio/Nuvio/Stremio, Logo chính chủ) cùng khiên bảo vệ & mã kích hoạt TVS.",
+  "changelogEn": "4AppleTV-S v1.0.0 (Build 1):\n• True Standalone 1-Slot Architecture: Install once via USB from Windows or macOS, then 4AppleTV-S self-signs and auto-renews every 7 days directly on iPhone over LocalDevVPN (10.7.0.1) — zero intermediate runner slot.\n• Metallic Gold Identity & Display Name 4AppleTV-S: 1-tap verified OTA self-update directly in place.\n• Preserves every 4AppleTV feature (Apple TV Remote, LiveContainerTV :8228, Default 4-App Pack, authentic icons) with TVS activation & Counter-REA hardening.",
+  "mandatory": false,
+  "prerelease": false,
+  "sha256": "c1547a54cbd443e8ae1a327d803c379fe95451579404ebf264367b094bbb378f"
+}
