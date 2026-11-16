@@ -16,14 +16,14 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "1.0.1",
-          "buildVersion": "2",
-          "date": "2026-11-15T10:42:02Z",
-          "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.0.1/4AppleTV-S.ipa",
-          "size": 10045312,
+          "version": "1.1.0",
+          "buildVersion": "3",
+          "date": "2026-11-16T01:49:45Z",
+          "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.0/4AppleTV-S.ipa",
+          "size": 10579093,
           "minOSVersion": "17.0",
-          "localizedDescription": "4AppleTV-S v1.0.1 (Build 2):\n• Fixed instant crash (EXC_BAD_ACCESS / 512 KB FFI thread stack overflow) when packing and refreshing 4AppleTV-S certificate on iPhone/iPad.\n• Added automatic Team ID matching & fallback across up to 3 signed-in Apple IDs (with case-insensitive matching & key sync), plus automatic RemotePairing (.rpport) recovery after device reboot.\n• Added built-in persistent diagnostic log (host-refresh.log) with Copy & Share viewer inside the Sideload and Account tabs.",
-          "sha256": "9095415b75a864aecdaca05570a8e76ec77390b4610643e5988ec2708d0f457a"
+          "localizedDescription": "4AppleTV-S v1.1.0 (Build 3):\n• Added wireless Apple TV screenshot capture (crisp 4K/1080p PNG) with an in-app Screenshots Gallery & export.\n• Added ~2-second fast misagent profile renewal (no .ipa reinstall needed) for both Apple TV apps and 4AppleTV-S itself on iPhone, plus automatic TV re-pair orphan healing.\n• Added automatic background update check, SHA-256 verified pre-download, and 0-click/1-tap in-place self-update via VPN 10.7.0.1 — one-time USB setup only.",
+          "sha256": "dd748290d83bf77dcc4e7294eec922a03020b3b1553fa077f351be41941da8cc"
         }
       ],
       "appPermissions": {
