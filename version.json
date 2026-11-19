@@ -1,16 +1,16 @@
 {
-  "version": "1.1.0",
-  "build": 3,
-  "gitCommit": "23b2ce7",
-  "releaseTag": "v1.1.0",
+  "version": "1.1.1",
+  "build": 4,
+  "gitCommit": "558e212",
+  "releaseTag": "v1.1.1",
   "assetName": "4AppleTV-S.ipa",
-  "assetSize": 10579093,
-  "releaseDate": "2026-11-16T01:49:45Z",
-  "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.0/4AppleTV-S.ipa",
-  "releasePageURL": "https://github.com/hongson117/4AppleTV-S/releases/tag/v1.1.0",
-  "changelog": "4AppleTV-S v1.1.0 (Build 3):\n• Chụp màn hình Apple TV không dây sắc nét (PNG 4K/1080p) kèm Kho lưu trữ & chia sẻ ảnh ngay trong ứng dụng.\n• Gia hạn nhanh misagent (~2 giây, không cần cài đè lại .ipa) cho cả ứng dụng Apple TV lẫn bản thân 4AppleTV-S trên iPhone, kèm tự động hàn gắn ghép đôi lại Apple TV.\n• Tự động kiểm tra, tải ngầm (xác minh SHA-256) và tự cài đè cập nhật 4AppleTV-S trực tiếp trong app qua VPN 10.7.0.1 — chỉ cần cắm cáp máy tính duy nhất 1 lần đầu tiên.",
-  "changelogEn": "4AppleTV-S v1.1.0 (Build 3):\n• Added wireless Apple TV screenshot capture (crisp 4K/1080p PNG) with an in-app Screenshots Gallery & export.\n• Added ~2-second fast misagent profile renewal (no .ipa reinstall needed) for both Apple TV apps and 4AppleTV-S itself on iPhone, plus automatic TV re-pair orphan healing.\n• Added automatic background update check, SHA-256 verified pre-download, and 0-click/1-tap in-place self-update via VPN 10.7.0.1 — one-time USB setup only.",
+  "assetSize": 10601898,
+  "releaseDate": "2026-11-19T09:02:04Z",
+  "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.1/4AppleTV-S.ipa",
+  "releasePageURL": "https://github.com/hongson117/4AppleTV-S/releases/tag/v1.1.1",
+  "changelog": "4AppleTV-S v1.1.1 (Build 4):\n• Đồng bộ chính xác số ngày còn lại (7 ngày) với LiveContainerTV trên Apple TV: Tự động đẩy hồ sơ .mobileprovision đã gia hạn qua HouseArrest (kể cả khi app TV đang đóng) và cổng :8228 (/api/v1/sync-expiry), kèm tự động chữa lệch ngày cũ.\n• Giữ trọn chụp màn hình không dây, gia hạn nhanh misagent ~2 giây cho cả ứng dụng TV & 4AppleTV-S, và tự động cập nhật trong app qua VPN 10.7.0.1.",
+  "changelogEn": "4AppleTV-S v1.1.1 (Build 4):\n• Synchronized 7-day LiveContainerTV expiry display: Fast misagent profile renewals automatically mirror the renewed .mobileprovision via HouseArrest and :8228 (/api/v1/sync-expiry), plus retroactive auto-healing.\n• Keeps wireless TV screenshots, ~2s misagent fast refresh for both Apple TV apps & 4AppleTV-S itself, and in-place self-update via VPN 10.7.0.1.",
   "mandatory": false,
   "prerelease": false,
-  "sha256": "dd748290d83bf77dcc4e7294eec922a03020b3b1553fa077f351be41941da8cc"
+  "sha256": "86e8c56cddcdf3bc267123cf9791fc870e37864298eda353c8a5100e673e411f"
 }

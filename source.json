@@ -16,14 +16,14 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "1.1.0",
-          "buildVersion": "3",
-          "date": "2026-11-16T01:49:45Z",
-          "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.0/4AppleTV-S.ipa",
-          "size": 10579093,
+          "version": "1.1.1",
+          "buildVersion": "4",
+          "date": "2026-11-19T09:02:04Z",
+          "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.1/4AppleTV-S.ipa",
+          "size": 10601898,
           "minOSVersion": "17.0",
-          "localizedDescription": "4AppleTV-S v1.1.0 (Build 3):\n• Added wireless Apple TV screenshot capture (crisp 4K/1080p PNG) with an in-app Screenshots Gallery & export.\n• Added ~2-second fast misagent profile renewal (no .ipa reinstall needed) for both Apple TV apps and 4AppleTV-S itself on iPhone, plus automatic TV re-pair orphan healing.\n• Added automatic background update check, SHA-256 verified pre-download, and 0-click/1-tap in-place self-update via VPN 10.7.0.1 — one-time USB setup only.",
-          "sha256": "dd748290d83bf77dcc4e7294eec922a03020b3b1553fa077f351be41941da8cc"
+          "localizedDescription": "4AppleTV-S v1.1.1 (Build 4):\n• Synchronized 7-day LiveContainerTV expiry display: Fast misagent profile renewals automatically mirror the renewed .mobileprovision via HouseArrest and :8228 (/api/v1/sync-expiry), plus retroactive auto-healing.\n• Keeps wireless TV screenshots, ~2s misagent fast refresh for both Apple TV apps & 4AppleTV-S itself, and in-place self-update via VPN 10.7.0.1.",
+          "sha256": "86e8c56cddcdf3bc267123cf9791fc870e37864298eda353c8a5100e673e411f"
         }
       ],
       "appPermissions": {
