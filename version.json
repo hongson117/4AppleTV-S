@@ -1,16 +1,16 @@
 {
-  "version": "1.1.1",
-  "build": 4,
-  "gitCommit": "558e212",
-  "releaseTag": "v1.1.1",
+  "version": "1.1.2",
+  "build": 5,
+  "gitCommit": "ac3bdd3",
+  "releaseTag": "v1.1.2",
   "assetName": "4AppleTV-S.ipa",
-  "assetSize": 10601898,
-  "releaseDate": "2026-11-19T09:02:04Z",
-  "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.1/4AppleTV-S.ipa",
-  "releasePageURL": "https://github.com/hongson117/4AppleTV-S/releases/tag/v1.1.1",
-  "changelog": "4AppleTV-S v1.1.1 (Build 4):\n• Đồng bộ chính xác số ngày còn lại (7 ngày) với LiveContainerTV trên Apple TV: Tự động đẩy hồ sơ .mobileprovision đã gia hạn qua HouseArrest (kể cả khi app TV đang đóng) và cổng :8228 (/api/v1/sync-expiry), kèm tự động chữa lệch ngày cũ.\n• Giữ trọn chụp màn hình không dây, gia hạn nhanh misagent ~2 giây cho cả ứng dụng TV & 4AppleTV-S, và tự động cập nhật trong app qua VPN 10.7.0.1.",
-  "changelogEn": "4AppleTV-S v1.1.1 (Build 4):\n• Synchronized 7-day LiveContainerTV expiry display: Fast misagent profile renewals automatically mirror the renewed .mobileprovision via HouseArrest and :8228 (/api/v1/sync-expiry), plus retroactive auto-healing.\n• Keeps wireless TV screenshots, ~2s misagent fast refresh for both Apple TV apps & 4AppleTV-S itself, and in-place self-update via VPN 10.7.0.1.",
+  "assetSize": 10602875,
+  "releaseDate": "2026-11-19T10:52:03Z",
+  "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.2/4AppleTV-S.ipa",
+  "releasePageURL": "https://github.com/hongson117/4AppleTV-S/releases/tag/v1.1.2",
+  "changelog": "4AppleTV-S v1.1.2 (Build 5):\n• Sửa dứt điểm lỗi cập nhật ứng dụng Apple TV & LiveContainerTV báo thành công nhưng vẫn giữ phiên bản cũ: Nâng cấp gói `.ipa` khác version/build sẽ tự động cài đè đầy đủ (vẫn giữ gia hạn nhanh `misagent` ~2 giây khi gia hạn cùng phiên bản).\n• Giữ trọn đồng bộ 7 ngày với LiveContainerTV (HouseArrest + :8228), chụp màn hình không dây và tự cập nhật trong app qua VPN 10.7.0.1.",
+  "changelogEn": "4AppleTV-S v1.1.2 (Build 5):\n• Fixed Apple TV app & LiveContainerTV upgrades reporting success while staying on the older version: Version/build updates now enforce a full package reinstall while keeping ~2s fast `misagent` renewals for same-version refreshes.\n• Preserves LiveContainerTV 7-day expiry sync (HouseArrest + :8228), wireless screenshots, and in-place self-update via VPN 10.7.0.1.",
   "mandatory": false,
   "prerelease": false,
-  "sha256": "86e8c56cddcdf3bc267123cf9791fc870e37864298eda353c8a5100e673e411f"
+  "sha256": "9a6a71642ba62a2ebdad48a3f00a4a0f3f69a5ff6e49523b04fa6dcb07841f6e"
 }

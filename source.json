@@ -16,14 +16,14 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "1.1.1",
-          "buildVersion": "4",
-          "date": "2026-11-19T09:02:04Z",
-          "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.1/4AppleTV-S.ipa",
-          "size": 10601898,
+          "version": "1.1.2",
+          "buildVersion": "5",
+          "date": "2026-11-19T10:52:03Z",
+          "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.2/4AppleTV-S.ipa",
+          "size": 10602875,
           "minOSVersion": "17.0",
-          "localizedDescription": "4AppleTV-S v1.1.1 (Build 4):\n• Synchronized 7-day LiveContainerTV expiry display: Fast misagent profile renewals automatically mirror the renewed .mobileprovision via HouseArrest and :8228 (/api/v1/sync-expiry), plus retroactive auto-healing.\n• Keeps wireless TV screenshots, ~2s misagent fast refresh for both Apple TV apps & 4AppleTV-S itself, and in-place self-update via VPN 10.7.0.1.",
-          "sha256": "86e8c56cddcdf3bc267123cf9791fc870e37864298eda353c8a5100e673e411f"
+          "localizedDescription": "4AppleTV-S v1.1.2 (Build 5):\n• Fixed Apple TV app & LiveContainerTV upgrades reporting success while staying on the older version: Version/build updates now enforce a full package reinstall while keeping ~2s fast `misagent` renewals for same-version refreshes.\n• Preserves LiveContainerTV 7-day expiry sync (HouseArrest + :8228), wireless screenshots, and in-place self-update via VPN 10.7.0.1.",
+          "sha256": "9a6a71642ba62a2ebdad48a3f00a4a0f3f69a5ff6e49523b04fa6dcb07841f6e"
         }
       ],
       "appPermissions": {
