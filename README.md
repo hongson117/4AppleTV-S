@@ -11,32 +11,32 @@
 
 ---
 
-## 📦 Tải xuống chính thức / Official Downloads (`v1.1.2` Build `5`)
+## 📦 Tải xuống chính thức / Official Downloads (`v1.1.3` Build `6`)
 
 > Kho công khai này chỉ phân phối file cài đặt nhị phân (`.ipa`, bộ cài USB Windows/macOS) và manifest kiểm tra cập nhật (`version.json`, `source.json`, `SHA256SUMS.txt`). Mã nguồn được bảo mật riêng tư.
 
 | Gói tải về / Package | Hệ điều hành | SHA-256 |
 |---|---|---|
-| [`4AppleTV-S.ipa`](https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.2/4AppleTV-S.ipa) | iOS 17.0+ | `9a6a71642ba62a2ebdad48a3f00a4a0f3f69a5ff6e49523b04fa6dcb07841f6e` |
-| [`4appletv-s-windows.zip`](https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.2/4appletv-s-windows.zip) | Windows 10/11 (x64) | `8a420db15a114be0c421260f5854a187bad3107af8aa288d2bc3c06e53e5d2cc` |
-| [`4appletv-s-macos-universal.zip`](https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.2/4appletv-s-macos-universal.zip) | macOS 11+ (Apple Silicon & Intel) | `3c16da0989d7007453823c51858ec58003e09f6b96fab9b31b4c73a75250bdae` |
+| [`4AppleTV-S.ipa`](https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.3/4AppleTV-S.ipa) | iOS 17.0+ | `777c8f95cb868ceaa2e314369a52ae6d31df26f5b16243f3a3bf3b6771ff97fc` |
+| [`4appletv-s-windows.zip`](https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.3/4appletv-s-windows.zip) | Windows 10/11 (x64) | `f02b2c3213200152b94c896e31dfbbaf68926ab879e342a3767966bf7b4b4477` |
+| [`4appletv-s-macos-universal.zip`](https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.3/4appletv-s-macos-universal.zip) | macOS 11+ (Apple Silicon & Intel) | `cfd00425dde53ba5591cb54999704ef37810c2b29a81995dfce988a831bb9cf1` |
 
-- **Release page:** [v1.1.2](https://github.com/hongson117/4AppleTV-S/releases/tag/v1.1.2)
+- **Release page:** [v1.1.3](https://github.com/hongson117/4AppleTV-S/releases/tag/v1.1.3)
 - **AltStore / Feather / SideStore Source (`source.json`):** `https://raw.githubusercontent.com/hongson117/4AppleTV-S/main/source.json`
 - **OTA Version Manifest (`version.json`):** `https://raw.githubusercontent.com/hongson117/4AppleTV-S/main/version.json`
 
-### ✨ Điểm mới trong `v1.1.2` (Build `5`)
-- **Sửa dứt điểm lỗi cập nhật ứng dụng Apple TV & `LiveContainerTV` báo thành công nhưng vẫn giữ phiên bản cũ:** Khi cài/nâng cấp gói `.ipa` có version hoặc build khác bản đang cài trên TV, `4AppleTV-S` ép cài đè đầy đủ (chỉ dùng gia hạn nhanh `misagent` ~2 giây khi gia hạn 7 ngày cùng phiên bản).
-- **Đồng bộ chính xác 7 ngày với `LiveContainerTV`:** Đẩy hồ sơ `.mobileprovision` qua `HouseArrest` (ngay cả khi app TV đang đóng) và cổng `:8228` (`/api/v1/sync-expiry`), kèm tự động chữa lệch ngày cũ khi kết nối lại.
-- **Chụp màn hình Apple TV không dây & tự động cập nhật trong app:** Hỗ trợ chụp 4K/1080p PNG qua Wi-Fi, gia hạn nhanh `misagent` cho cả app TV & `4AppleTV-S`, tự cập nhật OTA qua LocalDevVPN `10.7.0.1` (cắm USB 1 lần duy nhất).
+### ✨ Điểm mới trong `v1.1.3` (Build `6`)
+- **Khắc phục dứt điểm lỗi rớt kết nối Apple TV khi làm mới & đồng bộ `LiveContainerTV`:** Đóng phiên `misagent` ngay trước các cuộc gọi HTTPS tới Apple Developer Portal, tự động kiểm tra & nối lại đường hầm TLS-PSK khi Apple TV ngắt nhàn rỗi, kèm tự động thử lại ngay khi làm mới thủ công.
+- **Đánh thức Wi-Fi Apple TV & dự phòng đa địa chỉ IP:** Gõ thức cổng Wi-Fi Apple TV trước khi dò, khớp tên Bonjour có hậu tố đổi tên (`Apple TV (2)`), thử tuần tự danh sách IP khả dụng (Remote + `:8228` + lịch sử) và phân tầng thăm dò cổng `:8228` chống nghẽn socket.
+- **Giữ trọn đồng bộ 7 ngày với `LiveContainerTV`, chụp màn hình 4K/1080p không dây & tự cập nhật OTA qua LocalDevVPN `10.7.0.1`** (chỉ chiếm 1 slot Apple ID miễn phí).
 
 ---
 
 ## 🚀 Hướng dẫn cài đặt 1 lần duy nhất (Tiếng Việt)
 
 ### Bước 1 — Cài từ máy tính qua cáp USB (chỉ làm 1 lần)
-- **Windows 10/11:** Tải [`4appletv-s-windows.zip`](https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.2/4appletv-s-windows.zip), giải nén toàn bộ thư mục, cài **Apple Devices** hoặc **iTunes**, cắm iPhone qua USB (Tin cậy máy tính), rồi chạy **`Cai-4AppleTV-S.bat`**.
-- **macOS 11+:** Tải [`4appletv-s-macos-universal.zip`](https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.2/4appletv-s-macos-universal.zip), giải nén, cắm iPhone vào Finder & chọn **Trust**, rồi mở **`Cai-4AppleTV-S.command`**.
+- **Windows 10/11:** Tải [`4appletv-s-windows.zip`](https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.3/4appletv-s-windows.zip), giải nén toàn bộ thư mục, cài **Apple Devices** hoặc **iTunes**, cắm iPhone qua USB (Tin cậy máy tính), rồi chạy **`Cai-4AppleTV-S.bat`**.
+- **macOS 11+:** Tải [`4appletv-s-macos-universal.zip`](https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.3/4appletv-s-macos-universal.zip), giải nén, cắm iPhone vào Finder & chọn **Trust**, rồi mở **`Cai-4AppleTV-S.command`**.
 
 Công cụ sẽ tự động ký `4AppleTV-S.ipa` bằng Apple ID của bạn, cài lên iPhone (chiếm **đúng 1 slot** — không cài thêm app phụ), và nạp file ghép đôi Remote Pairing cùng khóa chứng chỉ vào app.
 
@@ -52,6 +52,6 @@ Công cụ sẽ tự động ký `4AppleTV-S.ipa` bằng Apple ID của bạn, c
 
 ## ⚙️ Quick Start (English)
 
-1. **One-time USB setup:** Download [`4appletv-s-windows.zip`](https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.2/4appletv-s-windows.zip) (Windows) or [`4appletv-s-macos-universal.zip`](https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.2/4appletv-s-macos-universal.zip) (macOS Universal), extract completely, connect your iPhone over USB, trust the computer, and run the launcher (`Cai-4AppleTV-S.bat` or `Cai-4AppleTV-S.command`).
+1. **One-time USB setup:** Download [`4appletv-s-windows.zip`](https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.3/4appletv-s-windows.zip) (Windows) or [`4appletv-s-macos-universal.zip`](https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.3/4appletv-s-macos-universal.zip) (macOS Universal), extract completely, connect your iPhone over USB, trust the computer, and run the launcher (`Cai-4AppleTV-S.bat` or `Cai-4AppleTV-S.command`).
 2. **Standalone 1-Slot Self-Refresh:** Install **LocalDevVPN** (`id6755608044`) from the App Store, sign in with the same Apple ID in **4AppleTV-S → Account** (automatically matches across up to 3 signed-in Apple IDs), and activate your **TVS** license key.
 3. **No Laptop Required Afterward:** Whenever LocalDevVPN (`10.7.0.1`) is active, **4AppleTV-S** performs ~2-second `misagent` fast 7-day renewals and automatic SHA-256 verified in-app OTA updates while occupying only **1 free Apple ID slot**, plus wireless Apple TV screenshots and TV app fast-refresh.

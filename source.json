@@ -16,14 +16,14 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "1.1.2",
-          "buildVersion": "5",
-          "date": "2026-11-19T10:52:03Z",
-          "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.2/4AppleTV-S.ipa",
-          "size": 10602875,
+          "version": "1.1.3",
+          "buildVersion": "6",
+          "date": "2026-11-24T00:23:38Z",
+          "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.3/4AppleTV-S.ipa",
+          "size": 10625511,
           "minOSVersion": "17.0",
-          "localizedDescription": "4AppleTV-S v1.1.2 (Build 5):\n• Fixed Apple TV app & LiveContainerTV upgrades reporting success while staying on the older version: Version/build updates now enforce a full package reinstall while keeping ~2s fast `misagent` renewals for same-version refreshes.\n• Preserves LiveContainerTV 7-day expiry sync (HouseArrest + :8228), wireless screenshots, and in-place self-update via VPN 10.7.0.1.",
-          "sha256": "9a6a71642ba62a2ebdad48a3f00a4a0f3f69a5ff6e49523b04fa6dcb07841f6e"
+          "localizedDescription": "4AppleTV-S v1.1.3 (Build 6):\n• Eliminated Apple TV connection drops during app & LiveContainerTV refreshes: Drops `misagent` before Apple Developer Portal calls, auto-reconnects idle TLS-PSK RSD tunnels, and adds automatic transient retry on manual refresh.\n• Pre-wakes Apple TV Wi-Fi, matches mDNS rename suffixes (`Apple TV (2)`), tries multi-host IPv4 candidates, stabilizes :8228 sync, and supports VPN 10.7.0.1 self-update.",
+          "sha256": "777c8f95cb868ceaa2e314369a52ae6d31df26f5b16243f3a3bf3b6771ff97fc"
         }
       ],
       "appPermissions": {
