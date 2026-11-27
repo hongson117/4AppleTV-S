@@ -1,16 +1,16 @@
 {
-  "version": "1.1.3",
-  "build": 6,
-  "gitCommit": "29fcfeb",
-  "releaseTag": "v1.1.3",
+  "version": "1.1.4",
+  "build": 7,
+  "gitCommit": "51c8266",
+  "releaseTag": "v1.1.4",
   "assetName": "4AppleTV-S.ipa",
-  "assetSize": 10625511,
-  "releaseDate": "2026-11-24T00:23:38Z",
-  "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.3/4AppleTV-S.ipa",
-  "releasePageURL": "https://github.com/hongson117/4AppleTV-S/releases/tag/v1.1.3",
-  "changelog": "4AppleTV-S v1.1.3 (Build 6):\n• Khắc phục dứt điểm lỗi rớt kết nối Apple TV khi làm mới & đồng bộ LiveContainerTV: Đóng `misagent` trước khi gọi máy chủ Apple Developer, tự động nối lại đường hầm TLS-PSK khi Apple TV ngắt nhàn rỗi và tự thử lại khi làm mới thủ công.\n• Đánh thức Wi-Fi Apple TV, khớp tên Bonjour đổi hậu tố (`Apple TV (2)`), dự phòng đa IP, ổn định cổng :8228 và tự cập nhật qua VPN 10.7.0.1.",
-  "changelogEn": "4AppleTV-S v1.1.3 (Build 6):\n• Eliminated Apple TV connection drops during app & LiveContainerTV refreshes: Drops `misagent` before Apple Developer Portal calls, auto-reconnects idle TLS-PSK RSD tunnels, and adds automatic transient retry on manual refresh.\n• Pre-wakes Apple TV Wi-Fi, matches mDNS rename suffixes (`Apple TV (2)`), tries multi-host IPv4 candidates, stabilizes :8228 sync, and supports VPN 10.7.0.1 self-update.",
+  "assetSize": 10719354,
+  "releaseDate": "2026-11-27T10:22:17Z",
+  "downloadURL": "https://github.com/hongson117/4AppleTV-S/releases/download/v1.1.4/4AppleTV-S.ipa",
+  "releasePageURL": "https://github.com/hongson117/4AppleTV-S/releases/tag/v1.1.4",
+  "changelog": "4AppleTV-S v1.1.4 (Build 7):\n• Cài mới 1 lệnh không cần máy tính trên iOS / iPadOS 27+ qua Open Minis (`tvs-boot` + `install.sh`): Tự ghép nối ngay trên iPhone, hỗ trợ ký bằng cả Apple ID cá nhân (1-Slot) lẫn Chứng chỉ mua (`.p12` + `.mobileprovision`), tự động bàn giao `pairing.plist`, khóa ký và chứng chỉ vào ứng dụng.\n• Bổ sung nút tự ghép nối lại trực tiếp ngay trong ứng dụng trên iOS 27+ (`Ghép nối ngay trên máy`), kèm giữ toàn bộ ổn định đường hầm Apple TV TLS-PSK và đồng bộ LiveContainerTV.",
+  "changelogEn": "4AppleTV-S v1.1.4 (Build 7):\n• 1-Command No-PC installation on iOS / iPadOS 27+ via Open Minis (`tvs-boot` + `install.sh`): On-device self-pairing, supports both personal Apple ID (1-Slot) and paid `.p12` + `.mobileprovision` certificates with automatic handover of `pairing.plist` and signing credentials.\n• Added built-in iOS 27+ on-device re-pairing (`Pair On-Device`) directly inside Account settings, alongside full Apple TV TLS-PSK auto-heal and LiveContainerTV sync.",
   "mandatory": false,
   "prerelease": false,
-  "sha256": "777c8f95cb868ceaa2e314369a52ae6d31df26f5b16243f3a3bf3b6771ff97fc"
+  "sha256": "17895e9046724f00464023cd6c26bd3224811bde0e244744829925212b00c29d"
 }
